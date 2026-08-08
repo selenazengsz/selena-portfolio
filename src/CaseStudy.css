@@ -779,6 +779,10 @@
   margin-top: 40px;
 }
 
+.presale-report-grid-single {
+  grid-template-columns: 1fr;
+}
+
 .presale-week-two {
   display: grid;
   align-content: start;
@@ -846,6 +850,17 @@
 
 .presale-app-example > div {
   padding: 20px 22px 24px;
+}
+
+.presale-app-example-early {
+  max-width: 720px;
+  margin: 34px auto 0;
+}
+
+.presale-app-example-early img {
+  height: 620px;
+  object-fit: contain;
+  object-position: top center;
 }
 
 .lifecycle-case-study-hero h2 {

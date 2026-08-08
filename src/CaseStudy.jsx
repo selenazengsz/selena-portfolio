@@ -241,26 +241,7 @@ function CampaignCaseStudy({ project, onClose }) {
           <section className="case-study-block">
             <div className="case-study-heading-row">
               <div>
-                <p className="case-study-kicker">02 / BUSINESS LOGIC</p>
-                <h3>From campaign goal to customer experience</h3>
-              </div>
-              <p>Every offer rule, product, asset, and placement had to support the same campaign promise.</p>
-            </div>
-            <div className="workflow-chart">
-              {caseStudy.workflow.map((item) => (
-                <article key={item.step}>
-                  <span>{item.step}</span>
-                  <strong>{item.title}</strong>
-                  <p>{item.text}</p>
-                </article>
-              ))}
-            </div>
-          </section>
-
-          <section className="case-study-block campaign-examples-section">
-            <div className="case-study-heading-row">
-              <div>
-                <p className="case-study-kicker">03 / CUSTOMER EXPERIENCE</p>
+                <p className="case-study-kicker">02 / CUSTOMER EXPERIENCE</p>
                 <h3>How the campaign appeared in the app</h3>
               </div>
               <p>The campaign moved from a high-visibility entry point into the product-selection journey.</p>
@@ -273,6 +254,25 @@ function CampaignCaseStudy({ project, onClose }) {
                     <strong>{example.title}</strong>
                     <p>{example.text}</p>
                   </div>
+                </article>
+              ))}
+            </div>
+          </section>
+
+          <section className="case-study-block">
+            <div className="case-study-heading-row">
+              <div>
+                <p className="case-study-kicker">03 / BUSINESS LOGIC</p>
+                <h3>From campaign goal to customer experience</h3>
+              </div>
+              <p>Every offer rule, product, asset, and placement had to support the same campaign promise.</p>
+            </div>
+            <div className="workflow-chart">
+              {caseStudy.workflow.map((item) => (
+                <article key={item.step}>
+                  <span>{item.step}</span>
+                  <strong>{item.title}</strong>
+                  <p>{item.text}</p>
                 </article>
               ))}
             </div>
@@ -361,10 +361,27 @@ function PresaleCaseStudy({ project, onClose }) {
             </div>
           </section>
 
+          <section className="case-study-block presale-example-section">
+            <div className="case-study-heading-row">
+              <div>
+                <p className="case-study-kicker">02 / LIVE EXPERIENCE</p>
+                <h3>Where the weekly launch appeared</h3>
+              </div>
+              <p>The Mini Program view makes the operational workflow tangible before the process details.</p>
+            </div>
+            <article className="presale-app-example presale-app-example-early">
+              <img src={caseStudy.appExample.image} alt={caseStudy.appExample.alt} />
+              <div>
+                <strong>{caseStudy.appExample.title}</strong>
+                <p>{caseStudy.appExample.text}</p>
+              </div>
+            </article>
+          </section>
+
           <section className="case-study-block presale-workflow-section">
             <div className="case-study-heading-row">
               <div>
-                <p className="case-study-kicker">02 / WEEK ONE · LAUNCH</p>
+                <p className="case-study-kicker">03 / WEEK ONE · LAUNCH</p>
                 <h3>Set up, launch, and check the release</h3>
               </div>
               <p>The timeline keeps product setup, creative work, approvals, and release checks moving toward the same deadline.</p>
@@ -395,12 +412,12 @@ function PresaleCaseStudy({ project, onClose }) {
           <section className="case-study-block presale-week-two-section">
             <div className="case-study-heading-row">
               <div>
-                <p className="case-study-kicker">03 / WEEK TWO · LEARN</p>
+                <p className="case-study-kicker">04 / WEEK TWO · LEARN</p>
                 <h3>Use the results to plan the next cycle</h3>
               </div>
               <p>Sales and redemption results close the loop instead of leaving each launch as a one-off event.</p>
             </div>
-            <div className="presale-report-grid">
+            <div className="presale-report-grid presale-report-grid-single">
               <div className="presale-week-two">
                 {caseStudy.weekTwo.map((item) => (
                   <article key={item.step}>
@@ -412,18 +429,11 @@ function PresaleCaseStudy({ project, onClose }) {
                   </article>
                 ))}
               </div>
-              <article className="presale-app-example">
-                <img src={caseStudy.appExample.image} alt={caseStudy.appExample.alt} />
-                <div>
-                  <strong>{caseStudy.appExample.title}</strong>
-                  <p>{caseStudy.appExample.text}</p>
-                </div>
-              </article>
             </div>
           </section>
 
           <section className="case-study-block insight-list-section">
-            <p className="case-study-kicker">04 / SOP HANDOFF</p>
+            <p className="case-study-kicker">05 / SOP HANDOFF</p>
             <h3>Turn the routine into a reusable SOP</h3>
             <div className="insight-list">
               {caseStudy.sopBenefits.map((item, index) => (
