@@ -2,6 +2,8 @@
 // Pixel Folder — Selena Zeng's portfolio content.
 // ============================================================================
 
+const asset = (path) => `${import.meta.env.BASE_URL}${path.replace(/^\/+/, "")}`;
+
 export const content = {
   hero: {
     brand: "Selena Zeng",
@@ -38,7 +40,7 @@ export const content = {
       year: "2026",
       link: "",
       detail: "Supported pass setup, behavioral segmentation, tiered refund rules, customer outreach, participating-store scope, and launch operations.",
-      folderIcon: "/folder-icons/red-rabbit-folder.png",
+      folderIcon: asset("/folder-icons/red-rabbit-folder.png"),
       caseStudy: {
         type: "lifecycle",
         fileNumber: "01",
@@ -99,13 +101,13 @@ export const content = {
     {
       title: "Campaign Planning & Launch Operations",
       description: "Turned seasonal campaign ideas into coordinated in-app launches across offers, products, creative assets, and QA.",
-      image: "/works/activity-planning/campaign-popup.jpg",
+      image: asset("/works/activity-planning/campaign-popup.jpg"),
       category: "Campaign Operations",
       tags: ["Launch Planning", "Cross-functional Ops"],
       year: "2026",
       link: "",
       detail: "Translated campaign ideas into launch requirements, coordinated cross-functional handoffs, and checked the full customer journey before release.",
-      folderIcon: "/folder-icons/blue-folder.png",
+      folderIcon: asset("/folder-icons/blue-folder.png"),
       caseStudy: {
         type: "campaign",
         fileNumber: "02",
@@ -135,13 +137,13 @@ export const content = {
         ],
         examples: [
           {
-            image: "/works/activity-planning/campaign-popup.jpg",
+            image: asset("/works/activity-planning/campaign-popup.jpg"),
             alt: "Public Luckin Coffee app popup for a seasonal frozen-drink campaign",
             title: "Campaign entry point",
             text: "The popup introduced the seasonal offer before customers entered the product journey.",
           },
           {
-            image: "/works/activity-planning/bilingual-app-examples.jpg",
+            image: asset("/works/activity-planning/bilingual-app-examples.jpg"),
             alt: "Luckin Coffee app product and menu screens showing the seasonal promotion",
             title: "Product journey",
             text: "The menu and product pages carried the campaign from initial interest to product selection.",
@@ -159,13 +161,13 @@ export const content = {
     {
       title: "Weekly New Product Pre-sale Workflow",
       description: "Ran a repeatable two-week workflow for new-product pre-sales, from setup and launch checks to reporting and the next release.",
-      image: "/works/presale-workflow/preorder-app-example.png",
+      image: asset("/works/presale-workflow/preorder-app-example.png"),
       category: "Launch Operations",
       tags: ["SOP Design", "Weekly Operations"],
       year: "2026",
       link: "",
       detail: "Kept voucher-to-listing mapping, creative requests, approvals, launch checks, and reporting moving on one weekly schedule, then documented the process for reuse.",
-      folderIcon: "/folder-icons/green-folder.png",
+      folderIcon: asset("/folder-icons/green-folder.png"),
       caseStudy: {
         type: "presale",
         fileNumber: "03",
@@ -232,7 +234,7 @@ export const content = {
           "Gave future interns a checklist they could use with less day-to-day guidance",
         ],
         appExample: {
-          image: "/works/presale-workflow/preorder-app-example.png",
+          image: asset("/works/presale-workflow/preorder-app-example.png"),
           alt: "Public Luckin Coffee Mini Program screen showing an early-bird pre-sale category and new products",
           title: "Customer-facing release",
           text: "The Mini Program shows where the weekly setup appeared after launch.",
@@ -249,7 +251,7 @@ export const content = {
       year: "2026",
       link: "",
       detail: "Translated business questions into targeted surveys, coordinated outreach, cleaned thousands of responses, and synthesized NPS, satisfaction, and open-text feedback for product and lifecycle teams.",
-      folderIcon: "/folder-icons/green-folder.png",
+      folderIcon: asset("/folder-icons/green-folder.png"),
       caseStudy: {
         type: "survey",
         fileNumber: "04",
@@ -325,9 +327,9 @@ export const content = {
   about: {
     name: "Selena Zeng",
     profileName: "Selena Zeng",
-    profileImage: "/about/profile.jpg",
+    profileImage: asset("/about/profile.jpg"),
     profileAlt: "Portrait of Selena Zeng holding white tulips outdoors",
-    postcardImage: "/about/stamp-paper.jpg",
+    postcardImage: asset("/about/stamp-paper.jpg"),
     fromLabel: "Selena Zeng",
     toLabel: "Growth teams",
     greeting: "Hello, I'm Selena.",
