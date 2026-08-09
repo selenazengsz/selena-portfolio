@@ -36,7 +36,7 @@ export default function WorkSection({ onOpen }) {
       <div className="shell">
         <Reveal className="sec-head">
           <span className="idx">03 — Work</span>
-          <h2>Selected Work</h2>
+          <h2>Projects</h2>
           <p>Projects across lifecycle growth, product thinking, analytics, and consumer insight.</p>
         </Reveal>
 
