@@ -129,47 +129,6 @@ section {
   text-align: right;
 }
 
-/* ---------- custom cursor (fine-pointer only) ---------- */
-.cursor-ring,
-.cursor-dot {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 9999;
-  pointer-events: none;
-  border-radius: 50%;
-  mix-blend-mode: difference;
-}
-
-.cursor-ring {
-  width: 34px;
-  height: 34px;
-  margin: -17px 0 0 -17px;
-  border: 1px solid #ffffff;
-}
-
-.cursor-dot {
-  width: 6px;
-  height: 6px;
-  margin: -3px 0 0 -3px;
-  background: #ffffff;
-}
-
-@media (hover: hover) and (pointer: fine) {
-  body,
-  a,
-  button {
-    cursor: none;
-  }
-}
-
-@media not all and (hover: hover) and (pointer: fine) {
-  .cursor-ring,
-  .cursor-dot {
-    display: none;
-  }
-}
-
 /* ---------- responsive shared ---------- */
 @media (max-width: 760px) {
   .sec-head {

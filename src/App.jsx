@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import Grain from "./components/Grain.jsx";
-import Cursor from "./components/Cursor.jsx";
 import SiteHeader from "./components/SiteHeader.jsx";
 import Hero from "./components/Hero.jsx";
 import Marquee from "./components/Marquee.jsx";
@@ -39,7 +38,6 @@ export default function App() {
   return (
     <>
       <Grain />
-      <Cursor />
       <SiteHeader active={active} />
       <main>
         <Hero />
