@@ -31,8 +31,8 @@
 }
 
 .bio-avatar {
-  width: 76px;
-  height: 76px;
+  width: 112px;
+  height: 112px;
   border-radius: 50%;
   object-fit: cover;
   box-shadow: inset 0 0 0 1px var(--line);
@@ -210,6 +210,11 @@
 }
 
 @media (max-width: 520px) {
+  .bio-avatar {
+    width: 92px;
+    height: 92px;
+  }
+
   .bio-postcard {
     min-height: 0;
   }
