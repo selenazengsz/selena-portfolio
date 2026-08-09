@@ -331,7 +331,7 @@ export const content = {
     profileAlt: "Portrait of Selena Zeng holding white tulips outdoors",
     postcardImage: asset("/about/stamp-paper.jpg"),
     greeting: "Hello, I'm Selena.",
-    body: "I’m currently studying Economics and Data Science at the University of Southern California and expect to graduate in December 2026. Before USC, I studied Finance and Accounting at the University of Pittsburgh from 2022 to 2024. I’m especially interested in consumer strategy, product thinking, and lifecycle growth. I enjoy understanding why users lose interest and how better segmentation, communication, and experiences can turn casual users into loyal ones. My background combines user growth, business analytics, and consulting. In my free time, I run two RedNote accounts that have earned over 7,000 likes.",
+    body: "I’m currently studying Economics and Data Science at the University of Southern California and expect to graduate in December 2026. Before USC, I studied Finance and Accounting at the University of Pittsburgh from 2022 to 2024. My background combines user growth, business analytics, and consulting. My personal interests include photography, hiking, fashion, skiing, Pilates, and live concerts. In my free time, I also run two RedNote accounts that have earned over 7,000 likes.",
   },
 
   skills: ["User Growth", "CRM & Lifecycle Marketing", "Customer Research", "SQL / Power BI", "Data Storytelling"],
