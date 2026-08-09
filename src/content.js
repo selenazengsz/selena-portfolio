@@ -330,10 +330,8 @@ export const content = {
     profileImage: asset("/about/profile.jpg"),
     profileAlt: "Portrait of Selena Zeng holding white tulips outdoors",
     postcardImage: asset("/about/stamp-paper.jpg"),
-    fromLabel: "Selena Zeng",
-    toLabel: "Growth teams",
     greeting: "Hello, I'm Selena.",
-    body: "I study Economics and Data Science at the University of Southern California and expect to graduate in December 2026. I am curious about why users act, where they drop off, and how better segmentation, communication, and experiences can create lasting value. My background spans user growth, business analytics, and consulting. I also independently operate two RedNote accounts that have earned 7,000+ likes.",
+    body: "I’m currently studying Economics and Data Science at the University of Southern California and expected to graduate in December 2026. I’m curious about why users do what they do, how they lose interest, and how better segmentation, communication, and experiences turn casual users into loyal ones. My background combines user growth, business analytics, and consulting. In my free time, I like to run my two RedNote accounts that have earned over 7000 likes.",
   },
 
   skills: ["User Growth", "CRM & Lifecycle Marketing", "Customer Research", "SQL / Power BI", "Data Storytelling"],

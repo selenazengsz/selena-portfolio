@@ -14,9 +14,8 @@ export default function AboutSection() {
       aria-label="About Selena"
     >
       <div className="shell">
-        <Reveal className="sec-head">
+        <Reveal className="sec-head about-sec-head">
           <span className="idx">02 — About</span>
-          <h2>About me</h2>
           <p>Economics, data science, consumer insight, and hands-on growth experience.</p>
         </Reveal>
 
@@ -31,7 +30,6 @@ export default function AboutSection() {
                   alt={about.profileAlt}
                 />
                 <div className="bio-name">
-                  <span>NAME</span>
                   <strong>{about.profileName}</strong>
                 </div>
               </div>
@@ -39,15 +37,6 @@ export default function AboutSection() {
               <div className="bio-postcard">
                 <img className="postcard-image" src={about.postcardImage} alt="" />
                 <div className="bio-copy">
-                  <div className="bio-address">
-                    <span>FROM</span>
-                    <strong>{about.fromLabel}</strong>
-                    <span className="arrow" aria-hidden="true">
-                      →
-                    </span>
-                    <span>TO</span>
-                    <strong>{about.toLabel}</strong>
-                  </div>
                   <p className="bio-greeting">{about.greeting}</p>
                   <p className="bio-body">{about.body}</p>
                 </div>
