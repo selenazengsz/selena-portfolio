@@ -34,8 +34,12 @@ export default function AboutSection() {
                 </div>
               </div>
 
-              <div className="bio-postcard">
-                <img className="postcard-image" src={about.postcardImage} alt="" />
+              <div
+                className="bio-postcard"
+                style={{
+                  backgroundImage: `linear-gradient(rgba(252, 252, 250, 0.76), rgba(252, 252, 250, 0.76)), url("${about.postcardImage}")`,
+                }}
+              >
                 <div className="bio-copy">
                   <p className="bio-greeting">{about.greeting}</p>
                   <p className="bio-body">{about.body}</p>
