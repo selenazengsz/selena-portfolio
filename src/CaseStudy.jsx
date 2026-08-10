@@ -524,31 +524,36 @@ function LifecycleCaseStudy({ project, onClose }) {
           <section className="case-study-block">
             <div className="case-study-heading-row">
               <div>
-                <p className="case-study-kicker">02 / PRODUCT & SEGMENTATION</p>
-                <h3>Match pass size to purchase behavior</h3>
+                <p className="case-study-kicker">02 / SEGMENT-LED PRODUCT STRATEGY</p>
+                <h3>Tailor the product mix to each audience</h3>
               </div>
-              <p>The public view shows relative customer groups; exact eligibility thresholds are omitted.</p>
+              <p>A concrete example of how customer understanding shapes an operating decision.</p>
             </div>
-            <div className="cohort-chart lifecycle-pass-grid">
-              {caseStudy.passVariants.map((variant) => (
-                <article className={`accent-${variant.accent}`} key={variant.value}>
-                  <span>PASS VARIANT</span>
-                  <strong>{variant.value} DRINKS</strong>
-                  <p>{variant.label}</p>
-                </article>
-              ))}
-            </div>
-            <div className="segment-ladder" aria-label="Customer segmentation strategy">
-              {caseStudy.segments.map((segment, index) => (
-                <article key={segment.tier}>
-                  <span>{String(index + 1).padStart(2, "0")}</span>
-                  <div>
-                    <small>{segment.tier}</small>
-                    <strong>{segment.recommendation}</strong>
-                    <p>{segment.text}</p>
-                  </div>
-                </article>
-              ))}
+            <p className="product-strategy-intro">{caseStudy.productStrategy.intro}</p>
+            <div className="product-strategy-table-scroll">
+              <table className="product-strategy-table">
+                <thead>
+                  <tr>
+                    <th scope="col">STRATEGY LENS</th>
+                    {caseStudy.productStrategy.audiences.map((audience) => (
+                      <th scope="col" key={audience.name}>
+                        <span>{audience.eyebrow}</span>
+                        <strong>{audience.name}</strong>
+                      </th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {caseStudy.productStrategy.rows.map((row) => (
+                    <tr key={row.label}>
+                      <th scope="row">{row.label === "Representative products" ? "→ " : ""}{row.label}</th>
+                      {row.values.map((value, index) => (
+                        <td key={`${row.label}-${caseStudy.productStrategy.audiences[index].name}`}>{value}</td>
+                      ))}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
             </div>
           </section>
 

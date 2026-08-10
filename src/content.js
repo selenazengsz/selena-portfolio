@@ -50,7 +50,7 @@ export const content = {
         snapshot: [
           { value: "03", label: "Pass variants" },
           { value: "02", label: "Program mechanics" },
-          { value: "03", label: "Customer segments" },
+          { value: "02", label: "Strategy audiences" },
           { value: "CRM", label: "Lifecycle operations" },
         ],
         contextTitle: "Match commitment level to customer behavior",
@@ -79,16 +79,47 @@ export const content = {
           { title: "Retention", text: "Encourage customers to return while they have drinks left to redeem." },
           { title: "Upfront commitment", text: "Create upfront commitment to future drink purchases." },
         ],
-        passVariants: [
-          { value: "03", label: "Lower barrier to entry", accent: "pink" },
-          { value: "05", label: "Mid-level commitment", accent: "yellow" },
-          { value: "10", label: "Better fit for higher-frequency customers", accent: "green" },
-        ],
-        segments: [
-          { tier: "LOWER FREQUENCY", recommendation: "Smaller pass", text: "Lower the upfront commitment for customers with less-established purchase behavior." },
-          { tier: "MID FREQUENCY", recommendation: "Medium pass", text: "Match customers who already buy repeatedly and may increase purchase frequency." },
-          { tier: "HIGHER FREQUENCY", recommendation: "Larger pass", text: "Offer greater value and a better fit for higher existing purchase frequency." },
-        ],
+        productStrategy: {
+          intro: "This strategy pairs two prepaid passes with two audience profiles. The broader menu spans coffee, tea, coconut, matcha, yogurt, and fruit-based drinks, so I tailor each product mix to the audience instead of using one bundle for everyone. I prioritize popular, well-priced options that match each group’s needs and taste preferences while keeping enough variety to support repeat use.",
+          audiences: [
+            { eyebrow: "COMMUTERS & STUDENTS", name: "Daily Routine Buyers" },
+            { eyebrow: "NOVELTY & EXPERIENCE", name: "Experience Seekers" },
+          ],
+          rows: [
+            {
+              label: "Customer profile",
+              values: [
+                "Treat drinks as an everyday need and value refreshment, health cues, convenience, and consistency.",
+                "Buy for novelty and enjoyment, respond to seasonal or visually distinctive launches, and accept a higher price for premium ingredients.",
+              ],
+            },
+            {
+              label: "Flavor preferences",
+              values: [
+                "Prefer clean, refreshing, lighter drinks with clear tea or coffee notes and avoid overly rich or sweet options.",
+                "Prefer rich, layered, indulgent flavors, especially creamy coconut, cheese foam, matcha, and yogurt-based drinks.",
+              ],
+            },
+            {
+              label: "Selection strategy",
+              values: [
+                "Prioritize frequently purchased, value-oriented coffee and fruit drinks for an accessible everyday pass.",
+                "Feature premium, high-interest products from mid-to-higher price tiers and make discovery part of the pass experience.",
+              ],
+            },
+            {
+              label: "Illustrative price",
+              values: ["Approx. RMB 99", "Approx. RMB 105"],
+            },
+            {
+              label: "Representative products",
+              values: [
+                "Americano, Fruit C Americano, coconut-water iced tea, iced or fruit tea, and sparkling water.",
+                "Raw coconut drinks, ice-forward drinks, matcha, flavored lattes, and yogurt drinks.",
+              ],
+            },
+          ],
+        },
         mechanisms: [
           {
             number: "01",

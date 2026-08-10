@@ -924,6 +924,95 @@
 .lifecycle-timeline article:nth-child(3n + 2) span { background: rgba(255, 241, 168, 0.82); }
 .lifecycle-timeline article:nth-child(3n) span { background: rgba(201, 240, 210, 0.82); }
 
+.product-strategy-intro {
+  max-width: 980px;
+  margin: 34px 0 0;
+  color: var(--muted);
+  font-size: clamp(15px, 1.6vw, 20px);
+  font-weight: 700;
+  line-height: 1.7;
+}
+
+.product-strategy-table-scroll {
+  margin-top: 34px;
+  overflow-x: auto;
+  border: 1.5px solid var(--line);
+  border-radius: 18px;
+  box-shadow: 8px 9px 0 rgba(23, 19, 29, 0.08);
+}
+
+.product-strategy-table {
+  width: 100%;
+  min-width: 860px;
+  border-collapse: collapse;
+  background: rgba(255, 255, 255, 0.42);
+  table-layout: fixed;
+}
+
+.product-strategy-table th,
+.product-strategy-table td {
+  padding: 24px;
+  border-right: 1.5px solid rgba(23, 19, 29, 0.25);
+  border-bottom: 1.5px solid rgba(23, 19, 29, 0.25);
+  text-align: left;
+  vertical-align: top;
+}
+
+.product-strategy-table tr > *:last-child {
+  border-right: 0;
+}
+
+.product-strategy-table tbody tr:last-child > * {
+  border-bottom: 0;
+}
+
+.product-strategy-table thead th:first-child,
+.product-strategy-table tbody th {
+  width: 21%;
+  font-family: var(--font-pixel);
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.product-strategy-table thead th:nth-child(2) {
+  background: rgba(201, 240, 210, 0.58);
+}
+
+.product-strategy-table thead th:nth-child(3) {
+  background: rgba(255, 193, 207, 0.52);
+}
+
+.product-strategy-table thead span {
+  display: block;
+  color: var(--muted);
+  font-family: var(--font-pixel);
+  font-size: 9px;
+  font-weight: 900;
+  letter-spacing: 0.05em;
+}
+
+.product-strategy-table thead strong {
+  display: block;
+  margin-top: 14px;
+  font-family: var(--font-display);
+  font-size: clamp(26px, 3vw, 40px);
+  font-style: italic;
+  line-height: 1;
+}
+
+.product-strategy-table td {
+  color: var(--muted);
+  font-size: 14px;
+  font-weight: 750;
+  line-height: 1.65;
+}
+
+.product-strategy-table tbody tr:last-child th {
+  background: rgba(255, 241, 168, 0.58);
+}
+
 .lifecycle-goal-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
