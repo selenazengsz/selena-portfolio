@@ -507,7 +507,7 @@ function LifecycleCaseStudy({ project, onClose }) {
                 <p className="case-study-kicker">01 / GROWTH WORKFLOW</p>
                 <h3>Turn insight into iteration</h3>
               </div>
-              <p>Each step moves the program from customer understanding to measurable learning.</p>
+              <p>Two core performance goals guide the strategy: increasing beverage volume and customer purchase frequency. We use frequency-driving tools to test operational impact, analyze results, and iterate.</p>
             </div>
             <div className="lifecycle-timeline-scroll">
               <div className="lifecycle-timeline" aria-label="Lifecycle growth workflow">
@@ -524,26 +524,7 @@ function LifecycleCaseStudy({ project, onClose }) {
           <section className="case-study-block">
             <div className="case-study-heading-row">
               <div>
-                <p className="case-study-kicker">02 / BUSINESS OBJECTIVES</p>
-                <h3>Encourage repeat purchases</h3>
-              </div>
-              <p>The program focused on drink purchases, purchase frequency, retention, and upfront commitment.</p>
-            </div>
-            <div className="lifecycle-goal-grid">
-              {caseStudy.goals.map((goal, index) => (
-                <article key={goal.title}>
-                  <span>{String(index + 1).padStart(2, "0")}</span>
-                  <strong>{goal.title}</strong>
-                  <p>{goal.text}</p>
-                </article>
-              ))}
-            </div>
-          </section>
-
-          <section className="case-study-block">
-            <div className="case-study-heading-row">
-              <div>
-                <p className="case-study-kicker">03 / PRODUCT & SEGMENTATION</p>
+                <p className="case-study-kicker">02 / PRODUCT & SEGMENTATION</p>
                 <h3>Match pass size to purchase behavior</h3>
               </div>
               <p>The public view shows relative customer groups; exact eligibility thresholds are omitted.</p>
@@ -574,7 +555,7 @@ function LifecycleCaseStudy({ project, onClose }) {
           <section className="case-study-block">
             <div className="case-study-heading-row">
               <div>
-                <p className="case-study-kicker">04 / PASS MECHANICS</p>
+                <p className="case-study-kicker">03 / PASS MECHANICS</p>
                 <h3>Make completion more attractive</h3>
               </div>
               <p>Prepayment and tiered refund logic worked together without removing the option to exit early.</p>
@@ -593,7 +574,7 @@ function LifecycleCaseStudy({ project, onClose }) {
           <section className="case-study-block">
             <div className="case-study-heading-row">
               <div>
-                <p className="case-study-kicker">05 / CUSTOMER BEHAVIOR</p>
+                <p className="case-study-kicker">04 / CUSTOMER BEHAVIOR</p>
                 <h3>Why customers may finish the pass</h3>
               </div>
               <p>Two simple behavioral ideas help explain the product logic without assuming a guaranteed response.</p>
