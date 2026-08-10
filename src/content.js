@@ -46,7 +46,7 @@ export const content = {
         fileNumber: "01",
         eyebrow: "LUCKIN COFFEE / LIFECYCLE GROWTH",
         title: "Tiered-Pricing Prepaid Drink Pass Strategy",
-        subtitle: "A lifecycle growth program that paired 3-, 5-, and 10-drink prepaid passes with behavioral segmentation and tiered refund logic to encourage repeat purchases and pass completion.",
+        subtitle: "A lifecycle growth program that combines multi-tiered prepaid passes, behavioral segmentation, segment-specific product selections, and refund logic to test ways to increase purchase frequency and drive repeat purchases.",
         snapshot: [
           { value: "03", label: "Pass variants" },
           { value: "02", label: "Program mechanics" },
