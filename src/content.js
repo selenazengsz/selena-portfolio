@@ -48,10 +48,10 @@ export const content = {
         title: "Tiered-Pricing Prepaid Drink Pass Strategy",
         subtitle: "A lifecycle growth program that combines multi-tiered prepaid passes, behavioral segmentation, segment-specific product selections, and refund logic to test ways to increase purchase frequency and drive repeat purchases.",
         snapshot: [
-          { value: "03", label: "Pass variants" },
-          { value: "02", label: "Program mechanics" },
+          { value: "02", label: "Core growth KPIs" },
           { value: "02", label: "Strategy audiences" },
-          { value: "CRM", label: "Lifecycle operations" },
+          { value: "04", label: "Behavioral signals" },
+          { value: "LOOP", label: "Test, learn, iterate" },
         ],
         contextTitle: "Match commitment level to customer behavior",
         overview: "Customers had different purchase-frequency patterns and different willingness to commit upfront. The program offered 3-, 5-, and 10-drink prepaid passes: smaller passes lowered the barrier to entry, while larger passes better matched customers with higher existing purchase frequency. The goal was to support repeat purchases and encourage customers to complete the pass.",
@@ -148,7 +148,7 @@ export const content = {
             text: "When customers exit early, used drinks are repriced by the applicable usage tier. Continued redemption preserves more of the pass value, encouraging completion while keeping an exit option.",
           },
         ],
-        outcome: "The program connected customer segmentation with prepaid pass setup, lifecycle outreach, and tiered refund rules. My work supported the product configuration and campaign operations used to match different pass sizes to different customer behaviors.",
+        outcome: "I turn customer insight into a repeatable growth loop: set beverage-volume and purchase-frequency goals, segment customers, tailor the pass and product mix, launch the offer, and read behavior across daypart, price, product selection, and baseline frequency. I use those signals to shape the next test, while prepaid commitment and tiered refund logic encourage pass completion and repeat purchases.",
       },
     },
     {

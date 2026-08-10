@@ -172,7 +172,7 @@ function SurveyCaseStudy({ project, onClose }) {
             <p className="case-study-kicker">OUTCOME</p>
             <h3>Customer feedback became a shared decision tool</h3>
             <p>{caseStudy.outcome}</p>
-            <button type="button" onClick={onClose}>BACK TO SELECTED WORK ↑</button>
+            <button type="button" onClick={onClose}>BACK TO PROJECTS ↑</button>
           </section>
         </div>
       </div>
@@ -295,7 +295,7 @@ function CampaignCaseStudy({ project, onClose }) {
             <p className="case-study-kicker">OUTCOME</p>
             <h3>One campaign, one consistent customer journey</h3>
             <p>{caseStudy.outcome}</p>
-            <button type="button" onClick={onClose}>BACK TO SELECTED WORK ↑</button>
+            <button type="button" onClick={onClose}>BACK TO PROJECTS ↑</button>
           </section>
         </div>
       </div>
@@ -449,7 +449,7 @@ function PresaleCaseStudy({ project, onClose }) {
             <p className="case-study-kicker">OUTCOME</p>
             <h3>A weekly routine became easier to run and hand off</h3>
             <p>{caseStudy.outcome}</p>
-            <button type="button" onClick={onClose}>BACK TO SELECTED WORK ↑</button>
+            <button type="button" onClick={onClose}>BACK TO PROJECTS ↑</button>
           </section>
         </div>
       </div>
@@ -603,9 +603,9 @@ function LifecycleCaseStudy({ project, onClose }) {
 
           <section className="case-study-outcome">
             <p className="case-study-kicker">OUTCOME</p>
-            <h3>A practical link between segmentation and repeat purchases</h3>
+            <h3>A repeatable loop from insight to frequency growth</h3>
             <p>{caseStudy.outcome}</p>
-            <button type="button" onClick={onClose}>BACK TO SELECTED WORK ↑</button>
+            <button type="button" onClick={onClose}>BACK TO PROJECTS ↑</button>
           </section>
         </div>
       </div>
