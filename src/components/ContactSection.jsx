@@ -20,7 +20,7 @@ export default function ContactSection() {
           viewport={{ once: true, margin: "0px 0px -10% 0px" }}
           transition={{ duration: 0.8, ease: [0.22, 0.7, 0.2, 1] }}
         >
-          <p className="contact-kicker">Get in touch — 04</p>
+          <p className="contact-kicker">04 — GET IN TOUCH</p>
           <h2 className="contact-title">Let's <em>connect</em></h2>
           <p className="contact-lead">{contact.lead}</p>
 

@@ -375,7 +375,7 @@ export const content = {
   contact: {
     titleLine1: "Let's",
     titleLine2: "connect",
-    lead: "I am seeking full-time opportunities in consumer strategy, product strategy, growth, or analytics after graduating in December 2026.",
+    lead: "I am seeking full-time opportunities in consumer strategy, product strategy, growth, or analytics.",
     linkedinHref: "https://www.linkedin.com/in/selenazeng912",
     linkedinText: "View my profile",
     emailHref: "mailto:yue.zeng@outlook.com",
