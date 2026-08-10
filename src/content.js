@@ -32,8 +32,8 @@ export const content = {
 
   projects: [
     {
-      title: "Lifecycle Marketing & CRM Campaigns",
-      description: "Configured and operated 3-, 5-, and 10-drink prepaid passes designed to encourage repeat purchases and retention.",
+      title: "Multi-Tiered Prepaid Drink Pass",
+      description: "Designed, configured, and operated multi-tiered prepaid drink passes to encourage repeat purchases and retention.",
       image: "",
       category: "Lifecycle Marketing",
       tags: ["Customer Segmentation", "Product Operations"],
@@ -100,7 +100,7 @@ export const content = {
     },
     {
       title: "Campaign Planning & Launch Operations",
-      description: "Turned seasonal campaign ideas into coordinated in-app launches across offers, products, creative assets, and QA.",
+      description: "Turned seasonal campaign ideas into coordinated in-app launches including offers, products, and creative assets.",
       image: asset("/works/activity-planning/campaign-popup.jpg"),
       category: "Campaign Operations",
       tags: ["Launch Planning", "Cross-functional Ops"],
@@ -160,7 +160,7 @@ export const content = {
     },
     {
       title: "Weekly New Product Pre-sale Workflow",
-      description: "Ran a repeatable two-week workflow for new-product pre-sales, from setup and launch checks to reporting and the next release.",
+      description: "Ran a repeatable 2-week workflow for new-product pre-sales, covering setup, launch checks, post-launch reporting, and handover.",
       image: asset("/works/presale-workflow/preorder-app-example.png"),
       category: "Launch Operations",
       tags: ["SOP Design", "Weekly Operations"],
