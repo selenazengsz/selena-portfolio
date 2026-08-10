@@ -507,7 +507,7 @@ function LifecycleCaseStudy({ project, onClose }) {
                 <p className="case-study-kicker">01 / GROWTH WORKFLOW</p>
                 <h3>Turn insight into iteration</h3>
               </div>
-              <p>Two core performance goals guide the strategy: increasing beverage volume and customer purchase frequency. We use frequency-driving tools to test operational impact, analyze results, and iterate.</p>
+              <p>Two core performance goals guide the strategy: increasing beverage volume and customer purchase frequency. We run tests designed to measure whether a specific strategy increases users’ purchase frequency, then analyze the results and iterate.</p>
             </div>
             <div className="lifecycle-timeline-scroll">
               <div className="lifecycle-timeline" aria-label="Lifecycle growth workflow">
@@ -594,7 +594,7 @@ function LifecycleCaseStudy({ project, onClose }) {
 
           <section className="case-study-outcome">
             <p className="case-study-kicker">OUTCOME</p>
-            <h3>A repeatable loop from insight to frequency growth</h3>
+            <h3>A repeatable loop from insight to higher purchase frequency</h3>
             <p>{caseStudy.outcome}</p>
             <button type="button" onClick={onClose}>BACK TO PROJECTS ↑</button>
           </section>
