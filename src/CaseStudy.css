@@ -1013,6 +1013,83 @@
   background: rgba(255, 241, 168, 0.58);
 }
 
+.behavior-test-intro {
+  max-width: 980px;
+  margin: 34px 0 0;
+  color: var(--muted);
+  font-size: clamp(15px, 1.6vw, 20px);
+  font-weight: 700;
+  line-height: 1.7;
+}
+
+.behavior-test-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 34px;
+}
+
+.behavior-test-grid article {
+  min-height: 270px;
+  padding: 26px;
+  border: 1.5px solid var(--line);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.42);
+  box-shadow: 6px 7px 0 rgba(23, 19, 29, 0.08);
+}
+
+.behavior-test-grid article:nth-child(1) { background: rgba(201, 240, 210, 0.56); }
+.behavior-test-grid article:nth-child(2) { background: rgba(255, 241, 168, 0.58); }
+.behavior-test-grid article:nth-child(3) { background: rgba(219, 217, 255, 0.58); }
+
+.behavior-test-grid span,
+.behavior-learning-callout > span {
+  font-family: var(--font-pixel);
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 0.05em;
+}
+
+.behavior-test-grid strong {
+  display: block;
+  margin-top: 32px;
+  font-family: var(--font-display);
+  font-size: clamp(28px, 3vw, 42px);
+  font-style: italic;
+  line-height: 1;
+}
+
+.behavior-test-grid p,
+.behavior-learning-callout p {
+  margin: 14px 0 0;
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 750;
+  line-height: 1.62;
+}
+
+.behavior-learning-callout {
+  display: grid;
+  grid-template-columns: minmax(150px, 0.35fr) minmax(260px, 0.65fr) minmax(320px, 1fr);
+  gap: 28px;
+  align-items: start;
+  margin-top: 24px;
+  padding: 28px;
+  border: 1.5px solid var(--line);
+  border-radius: 18px;
+  background: rgba(255, 193, 207, 0.46);
+}
+
+.behavior-learning-callout h4 {
+  margin: 0;
+  font-size: clamp(24px, 3vw, 38px);
+  line-height: 1.05;
+}
+
+.behavior-learning-callout p {
+  margin-top: 0;
+}
+
 .lifecycle-goal-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -1448,6 +1525,8 @@
   }
 
   .segment-ladder,
+  .behavior-test-grid,
+  .behavior-learning-callout,
   .growth-mechanism-grid,
   .behavioral-insight-grid {
     grid-template-columns: 1fr;

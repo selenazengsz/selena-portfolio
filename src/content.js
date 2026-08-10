@@ -73,12 +73,6 @@ export const content = {
           "Analyze results",
           "Iterate",
         ],
-        goals: [
-          { title: "Beverage volume", text: "Encourage more drink purchases through continued pass redemption." },
-          { title: "Purchase frequency", text: "Give customers a reason to return for their remaining drinks." },
-          { title: "Retention", text: "Encourage customers to return while they have drinks left to redeem." },
-          { title: "Upfront commitment", text: "Create upfront commitment to future drink purchases." },
-        ],
         productStrategy: {
           intro: "This strategy pairs two prepaid passes with two audience profiles. I group menu items into major product families, including Americanos, coconut-based drinks, milk lattes, matcha, yogurt drinks, fruit teas, and sparkling water. I then tailor each product mix to the audience instead of using one bundle for everyone, prioritizing popular, well-priced options that match each group’s needs and taste preferences while keeping enough variety to support repeat use.",
           audiences: [
@@ -120,21 +114,39 @@ export const content = {
             },
           ],
         },
+        behaviorTest: {
+          intro: "After each pass launch, I compare order and non-order behavior across daypart, product selection, price, and baseline purchase frequency. These signals show what customers value and which operating strategy to test next.",
+          dimensions: [
+            {
+              number: "01",
+              title: "Daypart & occasion",
+              text: "I compare morning coffee behavior with afternoon iced-milk and iced-tea occasions. The differences reveal which needs and product categories drive conversion in each window.",
+            },
+            {
+              number: "02",
+              title: "Price & product ladder",
+              text: "I start with an RMB 9.9 Americano, then test adjacent higher-value choices—such as an RMB 10.9 extra-strong Americano or RMB 11.9 coconut-water cold brew—to see whether customers trade up within a familiar taste profile.",
+            },
+            {
+              number: "03",
+              title: "Frequency cohorts",
+              text: "Because one-to-one prediction is not practical, I group customers into recently inactive or new, lower-, mid-, and higher-frequency cohorts and tailor longer-term frequency-building strategies to each group.",
+            },
+          ],
+          learningTitle: "Purchase behavior broadens as frequency grows",
+          learningText: "Recent weekly analysis shows a clear pattern among lower-frequency customers: weekday afternoon purchases center on lattes and Americanos. At the earliest stage, repeat orders often stay within the same occasion or product category. As frequency grows, customers begin to expand across dayparts, purchase dates, and categories.",
+        },
         mechanisms: [
           {
             number: "01",
             title: "Prepaid commitment",
-            text: "Customers pay upfront, committing to future drink purchases.",
+            text: "Customers pay upfront and turn future visits into a plan. Once they start redeeming the pass, the remaining balance can strengthen their motivation to complete it.",
           },
           {
             number: "02",
             title: "Tiered refund logic",
-            text: "If a customer exits the pass early, completed redemptions are repriced based on the applicable usage tier. This makes completing the pass more economically attractive while preserving the option to exit early.",
+            text: "When customers exit early, used drinks are repriced by the applicable usage tier. Continued redemption preserves more of the pass value, encouraging completion while keeping an exit option.",
           },
-        ],
-        behavioralInsights: [
-          { title: "Sunk cost effect", text: "After redeeming part of a prepaid pass, customers may be more motivated to use the remaining drinks rather than leave the pass unfinished." },
-          { title: "Commitment mechanism", text: "An upfront choice turns future visits into a plan rather than a new decision each time." },
         ],
         outcome: "The program connected customer segmentation with prepaid pass setup, lifecycle outreach, and tiered refund rules. My work supported the product configuration and campaign operations used to match different pass sizes to different customer behaviors.",
       },

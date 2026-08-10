@@ -560,10 +560,35 @@ function LifecycleCaseStudy({ project, onClose }) {
           <section className="case-study-block">
             <div className="case-study-heading-row">
               <div>
-                <p className="case-study-kicker">03 / PASS MECHANICS</p>
-                <h3>Make completion more attractive</h3>
+                <p className="case-study-kicker">03 / BEHAVIORAL LEARNING</p>
+                <h3>Observe what customers choose after launch</h3>
               </div>
-              <p>Prepayment and tiered refund logic worked together without removing the option to exit early.</p>
+              <p>Each pass test turns customer choices into inputs for the next frequency-building strategy.</p>
+            </div>
+            <p className="behavior-test-intro">{caseStudy.behaviorTest.intro}</p>
+            <div className="behavior-test-grid">
+              {caseStudy.behaviorTest.dimensions.map((dimension) => (
+                <article key={dimension.number}>
+                  <span>{dimension.number}</span>
+                  <strong>{dimension.title}</strong>
+                  <p>{dimension.text}</p>
+                </article>
+              ))}
+            </div>
+            <article className="behavior-learning-callout">
+              <span>RECENT LEARNING</span>
+              <h4>{caseStudy.behaviorTest.learningTitle}</h4>
+              <p>{caseStudy.behaviorTest.learningText}</p>
+            </article>
+          </section>
+
+          <section className="case-study-block">
+            <div className="case-study-heading-row">
+              <div>
+                <p className="case-study-kicker">04 / PASS MECHANICS & BEHAVIOR</p>
+                <h3>Connect each rule to a behavioral goal</h3>
+              </div>
+              <p>The product mechanics encourage completion while preserving a clear early-exit option.</p>
             </div>
             <div className="growth-mechanism-grid">
               {caseStudy.mechanisms.map((mechanism) => (
@@ -571,24 +596,6 @@ function LifecycleCaseStudy({ project, onClose }) {
                   <span>{mechanism.number}</span>
                   <strong>{mechanism.title}</strong>
                   <p>{mechanism.text}</p>
-                </article>
-              ))}
-            </div>
-          </section>
-
-          <section className="case-study-block">
-            <div className="case-study-heading-row">
-              <div>
-                <p className="case-study-kicker">04 / CUSTOMER BEHAVIOR</p>
-                <h3>Why customers may finish the pass</h3>
-              </div>
-              <p>Two simple behavioral ideas help explain the product logic without assuming a guaranteed response.</p>
-            </div>
-            <div className="behavioral-insight-grid">
-              {caseStudy.behavioralInsights.map((insight) => (
-                <article key={insight.title}>
-                  <strong>{insight.title}</strong>
-                  <p>{insight.text}</p>
                 </article>
               ))}
             </div>
