@@ -1022,27 +1022,6 @@
   line-height: 1.7;
 }
 
-.behavior-test-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 16px;
-  margin-top: 34px;
-}
-
-.behavior-test-grid article {
-  min-height: 270px;
-  padding: 26px;
-  border: 1.5px solid var(--line);
-  border-radius: 18px;
-  background: rgba(255, 255, 255, 0.42);
-  box-shadow: 6px 7px 0 rgba(23, 19, 29, 0.08);
-}
-
-.behavior-test-grid article:nth-child(1) { background: rgba(201, 240, 210, 0.56); }
-.behavior-test-grid article:nth-child(2) { background: rgba(255, 241, 168, 0.58); }
-.behavior-test-grid article:nth-child(3) { background: rgba(219, 217, 255, 0.58); }
-
-.behavior-test-grid span,
 .behavior-learning-callout > span {
   font-family: var(--font-pixel);
   font-size: 10px;
@@ -1050,16 +1029,6 @@
   letter-spacing: 0.05em;
 }
 
-.behavior-test-grid strong {
-  display: block;
-  margin-top: 32px;
-  font-family: var(--font-display);
-  font-size: clamp(28px, 3vw, 42px);
-  font-style: italic;
-  line-height: 1;
-}
-
-.behavior-test-grid p,
 .behavior-learning-callout p {
   margin: 14px 0 0;
   color: var(--muted);
@@ -1525,7 +1494,6 @@
   }
 
   .segment-ladder,
-  .behavior-test-grid,
   .behavior-learning-callout,
   .growth-mechanism-grid,
   .behavioral-insight-grid {

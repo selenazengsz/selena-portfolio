@@ -561,20 +561,11 @@ function LifecycleCaseStudy({ project, onClose }) {
             <div className="case-study-heading-row">
               <div>
                 <p className="case-study-kicker">03 / BEHAVIORAL LEARNING</p>
-                <h3>Observe what customers choose after launch</h3>
+                <h3>Test whether one daily drink becomes two</h3>
               </div>
-              <p>Each pass test turns customer choices into inputs for the next frequency-building strategy.</p>
+              <p>The question is whether a familiar morning-coffee routine can create a second afternoon occasion.</p>
             </div>
             <p className="behavior-test-intro">{caseStudy.behaviorTest.intro}</p>
-            <div className="behavior-test-grid">
-              {caseStudy.behaviorTest.dimensions.map((dimension) => (
-                <article key={dimension.number}>
-                  <span>{dimension.number}</span>
-                  <strong>{dimension.title}</strong>
-                  <p>{dimension.text}</p>
-                </article>
-              ))}
-            </div>
             <article className="behavior-learning-callout">
               <span>RECENT LEARNING</span>
               <h4>{caseStudy.behaviorTest.learningTitle}</h4>

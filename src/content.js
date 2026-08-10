@@ -115,26 +115,9 @@ export const content = {
           ],
         },
         behaviorTest: {
-          intro: "After each pass launch, I compare order and non-order behavior across daypart, product selection, price, and baseline purchase frequency. These signals show what customers value and which operating strategy to test next.",
-          dimensions: [
-            {
-              number: "01",
-              title: "Daypart & occasion",
-              text: "I compare morning coffee behavior with afternoon iced-milk and iced-tea occasions. The differences reveal which needs and product categories drive conversion in each window.",
-            },
-            {
-              number: "02",
-              title: "Price & product ladder",
-              text: "I start with an RMB 9.9 Americano, then test adjacent higher-value choices—such as an RMB 10.9 extra-strong Americano or RMB 11.9 coconut-water cold brew—to see whether customers trade up within a familiar taste profile.",
-            },
-            {
-              number: "03",
-              title: "Frequency cohorts",
-              text: "Because one-to-one prediction is not practical, I group customers into recently inactive or new, lower-, mid-, and higher-frequency cohorts and tailor longer-term frequency-building strategies to each group.",
-            },
-          ],
-          learningTitle: "Purchase behavior broadens as frequency grows",
-          learningText: "Recent weekly analysis shows a clear pattern among lower-frequency customers: weekday afternoon purchases center on lattes and Americanos. At the earliest stage, repeat orders often stay within the same occasion or product category. As frequency grows, customers begin to expand across dayparts, purchase dates, and categories.",
+          intro: "The goal is to test whether a customer who usually buys one morning coffee will add a second drink in the afternoon. I compare order and non-order behavior across daypart, product, price, and broad frequency cohorts to see which offer can create that second occasion. I start with an Americano (¥9.9), then test higher-value choices—such as an Americano with an extra espresso shot (¥10.9) or a coconut-water cold brew (¥12.9)—to see whether customers are willing to try new products within a familiar taste profile. These signals guide the next product ladder, audience strategy, and frequency-building test.",
+          learningTitle: "Frequency grows by expanding a familiar routine",
+          learningText: "Recent weekly analysis shows that lower-frequency customers initially repeat the same occasion and product category, with weekday purchases centered on lattes and Americanos. As frequency grows, behavior expands across dayparts, purchase dates, and categories. The practical opportunity is to use a familiar morning-coffee profile as the bridge to an afternoon drink, rather than asking customers to adopt a completely new taste at once.",
         },
         mechanisms: [
           {
