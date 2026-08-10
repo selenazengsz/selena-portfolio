@@ -63,6 +63,16 @@ export const content = {
           "Configured tiered refund logic and supporting business rules",
           "Supported launch readiness and ongoing campaign operations",
         ],
+        lifecycleFlow: [
+          "Identify insights",
+          "Segment customers",
+          "Set strategy",
+          "Configure passes",
+          "Activate outreach",
+          "Drive conversion",
+          "Analyze results",
+          "Iterate",
+        ],
         goals: [
           { title: "Beverage volume", text: "Encourage more drink purchases through continued pass redemption." },
           { title: "Purchase frequency", text: "Give customers a reason to return for their remaining drinks." },
