@@ -546,7 +546,7 @@ function LifecycleCaseStudy({ project, onClose }) {
                 <tbody>
                   {caseStudy.productStrategy.rows.map((row) => (
                     <tr key={row.label}>
-                      <th scope="row">{row.label === "Representative products" ? "→ " : ""}{row.label}</th>
+                      <th scope="row">{row.label === "Representative categories" ? "→ " : ""}{row.label}</th>
                       {row.values.map((value, index) => (
                         <td key={`${row.label}-${caseStudy.productStrategy.audiences[index].name}`}>{value}</td>
                       ))}

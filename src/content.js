@@ -80,7 +80,7 @@ export const content = {
           { title: "Upfront commitment", text: "Create upfront commitment to future drink purchases." },
         ],
         productStrategy: {
-          intro: "This strategy pairs two prepaid passes with two audience profiles. The broader menu spans coffee, tea, coconut, matcha, yogurt, and fruit-based drinks, so I tailor each product mix to the audience instead of using one bundle for everyone. I prioritize popular, well-priced options that match each group’s needs and taste preferences while keeping enough variety to support repeat use.",
+          intro: "This strategy pairs two prepaid passes with two audience profiles. I group menu items into major product families, including Americanos, coconut-based drinks, milk lattes, matcha, yogurt drinks, fruit teas, and sparkling water. I then tailor each product mix to the audience instead of using one bundle for everyone, prioritizing popular, well-priced options that match each group’s needs and taste preferences while keeping enough variety to support repeat use.",
           audiences: [
             { eyebrow: "COMMUTERS & STUDENTS", name: "Daily Routine Buyers" },
             { eyebrow: "NOVELTY & EXPERIENCE", name: "Experience Seekers" },
@@ -112,10 +112,10 @@ export const content = {
               values: ["Approx. RMB 99", "Approx. RMB 105"],
             },
             {
-              label: "Representative products",
+              label: "Representative categories",
               values: [
-                "Americano, Fruit C Americano, coconut-water iced tea, iced or fruit tea, and sparkling water.",
-                "Raw coconut drinks, ice-forward drinks, matcha, flavored lattes, and yogurt drinks.",
+                "Americano; fruit juice-infused Americano; coconut water Americano; fruit tea; fruit and vegetable tea; sparkling water.",
+                "Coconut milk coffee; matcha drinks; milk lattes; yogurt drinks.",
               ],
             },
           ],
