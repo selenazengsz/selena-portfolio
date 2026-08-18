@@ -147,7 +147,6 @@ function SurveyCaseStudy({ project, onClose }) {
                 <p className="case-study-kicker">05 / FROM INSIGHT TO ACTION</p>
                 <h3>Turn patterns into priorities</h3>
               </div>
-              <p>Relative signal levels keep the business story clear without revealing non-public performance metrics.</p>
             </div>
             <div className="signal-chart">
               {caseStudy.insightTiers.map((item) => (
