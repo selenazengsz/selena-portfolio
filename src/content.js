@@ -334,9 +334,9 @@ export const content = {
           "Brand & packaging",
         ],
         npsGroups: [
-          { label: "Detractors", score: "0–6", width: 50, color: "pink" },
-          { label: "Passives", score: "7–8", width: 22, color: "yellow" },
-          { label: "Promoters", score: "9–10", width: 28, color: "green" },
+          { label: "Detractors", score: "0–6", width: 63.64, color: "pink" },
+          { label: "Passives", score: "7–8", width: 18.18, color: "yellow" },
+          { label: "Promoters", score: "9–10", width: 18.18, color: "green" },
         ],
         insightTiers: [
           { label: "Price & value", tier: "HIGH SIGNAL", width: 96 },
