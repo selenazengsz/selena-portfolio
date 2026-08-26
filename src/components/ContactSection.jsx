@@ -39,7 +39,7 @@ export default function ContactSection() {
                 ↗
               </span>
             </a>
-            <a href={contact.resumeHref} target="_blank" rel="noreferrer">
+            <a href={contact.resumeHref} download="Selena-Zeng-Resume.pdf">
               <span className="c-label">Resume</span>
               <span className="c-value">{contact.resumeText}</span>
               <span className="c-arrow" aria-hidden="true">
