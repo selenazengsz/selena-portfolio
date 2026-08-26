@@ -39,6 +39,13 @@ export default function ContactSection() {
                 ↗
               </span>
             </a>
+            <a href={contact.resumeHref} target="_blank" rel="noreferrer">
+              <span className="c-label">Resume</span>
+              <span className="c-value">{contact.resumeText}</span>
+              <span className="c-arrow" aria-hidden="true">
+                ↓
+              </span>
+            </a>
           </div>
         </motion.div>
       </div>
