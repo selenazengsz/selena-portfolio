@@ -416,7 +416,7 @@ export const content = {
     linkedinText: "View my profile",
     emailHref: "mailto:yue.zeng@outlook.com",
     emailText: "yue.zeng@outlook.com",
-    resumeHref: "https://docs.google.com/document/d/1PZoDNRg_zJcH2O8sKIv0PP3a1SDl-UnVoNafyMZbeno/export?format=pdf",
+    resumeHref: "https://docs.google.com/document/d/1PZoDNRg_zJcH2O8sKIv0PP3a1SDl-UnVoNafyMZbeno/export?format=pdf&tab=t.0",
     resumeText: "Download my resume",
   },
 };
