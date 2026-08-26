@@ -367,7 +367,9 @@ export const content = {
     profileAlt: "Portrait of Selena Zeng holding white tulips outdoors",
     postcardImage: asset("/about/stamp-paper.jpg"),
     greeting: "Hello, I'm Selena.",
-    body: "I’m currently studying Economics and Data Science at the University of Southern California and expect to graduate in December 2026. Before USC, I studied Finance and Accounting at the University of Pittsburgh from 2022 to 2024. I’m curious about why users do what they do, how they lose interest, and how better segmentation, communication, and experiences turn casual users into loyal ones. My background combines user growth, business analytics, and consulting. My personal interests include photography, hiking, fashion, skiing, Pilates, and live concerts. In my free time, I also run two RedNote accounts that have earned over 7,000 likes.",
+    body: "I’m currently studying Economics and Data Science at the University of Southern California and expect to graduate in December 2026. Before USC, I studied Finance and Accounting at the University of Pittsburgh from 2022 to 2024. I’m curious about why users do what they do, how they lose interest, and how better segmentation, communication, and experiences turn casual users into loyal ones. My background combines user growth, business analytics, and consulting.",
+    careerFocus: "I’m interested in both product management and operations because both rely on user research, data analysis, and cross-functional collaboration. My experience is currently strongest in growth and product operations, where I identify user needs, shape campaign strategies, and coordinate execution. I’m also drawn to product management because I want to work further upstream, helping decide what should be built and why, in addition to improving how an existing product operates.",
+    personalNote: "My personal interests include photography, hiking, fashion, skiing, Pilates, and live concerts. In my free time, I also run two RedNote accounts that have earned over 7,000 likes.",
   },
 
   skills: ["User Growth", "CRM & Lifecycle Marketing", "Customer Research", "SQL / Power BI", "Data Storytelling"],

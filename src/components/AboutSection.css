@@ -83,6 +83,10 @@
   line-height: 1.82;
 }
 
+.bio-body + .bio-body {
+  margin-top: 18px;
+}
+
 /* ============ 右：竖向时间线（参考图） ============ */
 .exp-label {
   margin: 0 0 22px;

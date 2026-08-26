@@ -43,6 +43,8 @@ export default function AboutSection() {
                 <div className="bio-copy">
                   <p className="bio-greeting">{about.greeting}</p>
                   <p className="bio-body">{about.body}</p>
+                  <p className="bio-body">{about.careerFocus}</p>
+                  <p className="bio-body">{about.personalNote}</p>
                 </div>
               </div>
             </div>
