@@ -191,7 +191,7 @@ export const content = {
           "Copy stayed consistent from the campaign entry point to product selection",
           "The live journey worked end to end before customers saw it",
         ],
-        outcome: "The campaign reached customers as one coherent experience rather than a collection of disconnected assets. My work connected the original idea with the operational details that made the launch usable and consistent in the app.",
+        outcome: "The campaign reaches customers as one coherent experience rather than a collection of disconnected assets. My work connects the original idea with the operational details that make the launch usable and consistent in the app.",
       },
     },
     {

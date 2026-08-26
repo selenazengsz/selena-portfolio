@@ -264,7 +264,7 @@ function CampaignCaseStudy({ project, onClose }) {
                 <p className="case-study-kicker">03 / BUSINESS LOGIC</p>
                 <h3>From campaign goal to customer experience</h3>
               </div>
-              <p>Every offer rule, product, asset, and placement had to support the same campaign promise.</p>
+              <p>Every offer rule, product, asset, and placement aligns with the campaign goals.</p>
             </div>
             <div className="workflow-chart">
               {caseStudy.workflow.map((item) => (
