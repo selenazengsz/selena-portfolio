@@ -222,7 +222,7 @@ export const content = {
           "Managed the weekly checklist from product setup through reporting",
           "Mapped coffee vouchers to digital product listings and configured optional size-upgrade vouchers",
           "Coordinated copy, images, placements, approvals, and launch checks",
-          "Turned the recurring process into an SOP that future interns could follow",
+          "Turned the recurring process into an SOP that new team members could follow",
         ],
         weekOne: [
           {
@@ -267,7 +267,7 @@ export const content = {
         sopBenefits: [
           "Put recurring tasks, deadlines, and handoffs in one place",
           "Made launch status easier to follow across product, creative, and operations",
-          "Gave future interns a checklist they could use with less day-to-day guidance",
+          "Gave incoming team members a checklist they could use with less day-to-day guidance",
         ],
         appExample: {
           image: asset("/works/presale-workflow/preorder-app-example.png"),
@@ -275,7 +275,7 @@ export const content = {
           title: "Customer-facing release",
           text: "The Mini Program shows where the weekly setup appeared after launch.",
         },
-        outcome: "The process became easier to run, review, and hand off. The SOP gave future interns a practical starting point, reduced repeated explanations from mentors, and helped the team keep weekly launches consistent.",
+        outcome: "The process became easier to run, review, and hand off. The SOP gave incoming team members a practical starting point, reduced repeated explanations from project leads, and helped the team keep weekly launches consistent.",
       },
     },
     {
@@ -293,12 +293,12 @@ export const content = {
         fileNumber: "04",
         eyebrow: "LUCKIN COFFEE / VOICE OF CUSTOMER",
         title: "Customer Feedback Survey & NPS Analysis",
-        subtitle: "I built three audience-specific surveys, cleaned thousands of responses, and turned NPS, satisfaction, and open-text feedback into priorities for product and lifecycle teams.",
+        subtitle: "I built three audience-specific surveys, cleaned thousands of responses, and turned Net Promoter Score (NPS), satisfaction, and open-text feedback into priorities for product and lifecycle teams.",
         snapshot: [
           { value: "03", label: "Customer groups" },
           { value: "1,000s", label: "Responses cleaned" },
           { value: "04", label: "Validation checks" },
-          { value: "E2E", label: "Research workflow" },
+          { value: "E2E", label: "End-to-end research workflow" },
         ],
         contextTitle: "Different customer behaviors called for different questions",
         overview: "The team did not need another generic satisfaction survey. It needed to understand why some customers stopped buying, what brought others back, and where high-intent customers encountered friction before ordering. I turned those business questions into three targeted surveys and built the workflow from outreach through analysis.",
@@ -306,7 +306,7 @@ export const content = {
           "Turned business questions into a research plan for three customer groups",
           "Designed the questionnaires and coordinated targeted outreach and incentives",
           "Built a repeatable process for cleaning responses and analyzing NPS",
-          "Combined survey scores and open-text feedback into clear recommendations",
+          "Combined survey scores and open-text feedback into clear product and lifecycle recommendations",
         ],
         workflow: [
           { step: "01", title: "Define", text: "Clarify the decision the team needed to make and who could answer it." },
@@ -334,9 +334,9 @@ export const content = {
           "Brand & packaging",
         ],
         npsGroups: [
-          { label: "Detractors", score: "0–6", width: 60, color: "pink" },
-          { label: "Passives", score: "7–8", width: 20, color: "yellow" },
-          { label: "Promoters", score: "9–10", width: 20, color: "green" },
+          { label: "Detractors", score: "0–6", width: 63.64, color: "pink" },
+          { label: "Passives", score: "7–8", width: 18.18, color: "yellow" },
+          { label: "Promoters", score: "9–10", width: 18.18, color: "green" },
         ],
         insightTiers: [
           { label: "Price & value", tier: "HIGH SIGNAL", width: 96 },
@@ -347,7 +347,7 @@ export const content = {
         ],
         insights: [
           "Each customer group needed its own survey logic; one generic questionnaire would have hidden the reason behind the behavior.",
-          "NPS showed the strength of recommendation, while experience questions and comments helped explain why customers felt that way.",
+          "Net Promoter Score (NPS) showed the strength of recommendation, while experience questions and comments helped explain why customers felt that way.",
           "A reusable cleaning and analysis process made the findings easier to trust and future survey waves easier to run.",
         ],
         outcome: "The project gave product, UX, and lifecycle teams a shared view of where customers were struggling and what to prioritize next. It also created a repeatable research process that could be reused for future survey waves.",

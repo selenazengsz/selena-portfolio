@@ -83,7 +83,7 @@ function SurveyCaseStudy({ project, onClose }) {
                 <p className="case-study-kicker">03 / RESEARCH WORKFLOW</p>
                 <h3>From question to decision</h3>
               </div>
-              <p>The same operating flow carried each survey from planning through recommendations.</p>
+              <p>The same operating flow carries each survey from planning to product and lifecycle recommendations.</p>
             </div>
             <div className="workflow-chart">
               {caseStudy.workflow.map((item) => (
@@ -102,7 +102,7 @@ function SurveyCaseStudy({ project, onClose }) {
                 <p className="case-study-kicker">04 / DATA & ANALYSIS</p>
                 <h3>Clean first, then compare the right signals</h3>
               </div>
-              <p>NPS showed recommendation strength; experience questions and comments helped explain what drove it.</p>
+              <p>Net Promoter Score (NPS) shows recommendation strength; experience questions and comments help explain what drives it.</p>
             </div>
             <div className="data-grid survey-analysis-grid">
               <article className="data-card quality-card">
@@ -110,7 +110,7 @@ function SurveyCaseStudy({ project, onClose }) {
                 <h3>Four quality checks</h3>
                 <div className="quality-funnel">
                   {caseStudy.qualityChecks.map((check, index) => (
-                    <div style={{ width: `${100 - index * 9}%` }} key={check.name}>
+                    <div key={check.name}>
                       <span>{String(index + 1).padStart(2, "0")}</span>
                       <p><strong>{check.name}</strong>{" — "}{check.note}</p>
                     </div>
@@ -147,6 +147,7 @@ function SurveyCaseStudy({ project, onClose }) {
                 <p className="case-study-kicker">05 / FROM INSIGHT TO ACTION</p>
                 <h3>Turn patterns into priorities</h3>
               </div>
+              <p>Combining targeted survey logic with repeatable analysis highlights top customer priorities and guides strategic decisions.</p>
             </div>
             <div className="signal-chart">
               {caseStudy.insightTiers.map((item) => (
@@ -446,7 +447,7 @@ function PresaleCaseStudy({ project, onClose }) {
 
           <section className="case-study-outcome">
             <p className="case-study-kicker">OUTCOME</p>
-            <h3>A weekly routine became easier to run and hand off</h3>
+            <h3>Transformed a fragmented workflow into a scalable, self-serve system</h3>
             <p>{caseStudy.outcome}</p>
             <button type="button" onClick={onClose}>BACK TO PROJECTS ↑</button>
           </section>

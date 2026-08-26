@@ -1061,11 +1061,7 @@ img.paper-image {
   border: 1.5px solid var(--line);
   border-radius: 18px;
   box-shadow: 7px 8px 0 rgba(23, 19, 29, 0.1);
-  transform: rotate(-0.5deg);
-}
-
-.cohort-chart article:nth-child(2) {
-  transform: rotate(0.7deg);
+  transform: none;
 }
 
 .cohort-chart .accent-pink { background: rgba(255, 193, 207, 0.7); }
@@ -1114,6 +1110,7 @@ img.paper-image {
   gap: 10px;
   align-items: center;
   min-height: 62px;
+  width: 100%;
   margin-inline: auto;
   padding: 10px 16px;
   border: 1.5px solid var(--line);
