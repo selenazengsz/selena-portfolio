@@ -604,7 +604,194 @@ function LifecycleCaseStudy({ project, onClose }) {
   );
 }
 
+function OpsPmCaseStudy({ project, onClose }) {
+  const caseStudy = project.caseStudy;
+
+  useEffect(() => {
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+
+    const handleKeyDown = (event) => {
+      if (event.key === "Escape") onClose();
+    };
+
+    window.addEventListener("keydown", handleKeyDown);
+    return () => {
+      document.body.style.overflow = previousOverflow;
+      window.removeEventListener("keydown", handleKeyDown);
+    };
+  }, [onClose]);
+
+  return (
+    <div className="case-study-overlay" role="dialog" aria-modal="true" aria-labelledby="opspm-case-study-title">
+      <div className="case-study-shell">
+        <header className="case-study-topbar">
+          <span>SELENA.ZENG / PROJECT FILE {caseStudy.fileNumber}</span>
+          <button type="button" onClick={onClose} aria-label="Close case study">
+            CLOSE <span aria-hidden="true">×</span>
+          </button>
+        </header>
+
+        <div className="case-study-content">
+          <section className="case-study-hero opspm-case-study-hero">
+            <p className="case-study-eyebrow">{caseStudy.eyebrow}</p>
+            <h2 id="opspm-case-study-title">{caseStudy.title}</h2>
+            <p className="case-study-subtitle">{caseStudy.subtitle}</p>
+            <a className="case-study-github-link" href={caseStudy.projectUrl} target="_blank" rel="noreferrer">
+              VIEW PROJECT ON GITHUB <span aria-hidden="true">↗</span>
+            </a>
+          </section>
+
+          <section className="snapshot-grid" aria-label="Project snapshot">
+            {caseStudy.snapshot.map((item) => (
+              <article key={item.label}>
+                <strong>{item.value}</strong>
+                <span>{item.label}</span>
+              </article>
+            ))}
+          </section>
+
+          <section className="case-study-block two-column-copy">
+            <div>
+              <p className="case-study-kicker">01 / BACKGROUND</p>
+              <h3>{caseStudy.contextTitle}</h3>
+              <p className="case-study-body">{caseStudy.overview}</p>
+            </div>
+            <div className="role-card">
+              <span>MY ROLE</span>
+              <ul>
+                {caseStudy.role.map((item) => <li key={item}>{item}</li>)}
+              </ul>
+            </div>
+          </section>
+
+          <section className="case-study-block">
+            <div className="case-study-heading-row">
+              <div>
+                <p className="case-study-kicker">02 / PAIN POINTS</p>
+                <h3>What the existing search process missed</h3>
+              </div>
+              <p>I started with a personal workflow problem, then looked for the parts that other Ops and PM candidates could reuse.</p>
+            </div>
+            <div className="opspm-pain-grid">
+              {caseStudy.painPoints.map((item, index) => (
+                <article key={item.title}>
+                  <span>{String(index + 1).padStart(2, "0")}</span>
+                  <strong>{item.title}</strong>
+                  <p>{item.text}</p>
+                </article>
+              ))}
+            </div>
+          </section>
+
+          <section className="case-study-block">
+            <div className="case-study-heading-row">
+              <div>
+                <p className="case-study-kicker">03 / PRODUCT REQUIREMENTS</p>
+                <h3>Turn the pain into testable rules</h3>
+              </div>
+              <p>The product had to be relevant, explainable, current, useful after discovery, and private by default.</p>
+            </div>
+            <div className="opspm-requirements">
+              {caseStudy.requirements.map((item) => (
+                <article key={item.number}>
+                  <span>{item.number}</span>
+                  <div>
+                    <strong>{item.title}</strong>
+                    <p>{item.text}</p>
+                  </div>
+                </article>
+              ))}
+            </div>
+          </section>
+
+          <section className="case-study-block">
+            <div className="case-study-heading-row">
+              <div>
+                <p className="case-study-kicker">04 / END-TO-END WORKFLOW</p>
+                <h3>From public feed to human decision</h3>
+              </div>
+              <p>Automation handles repetitive discovery and data hygiene. Judgment and submission stay with the user.</p>
+            </div>
+            <div className="workflow-chart opspm-workflow-chart">
+              {caseStudy.workflow.map((item) => (
+                <article key={item.step}>
+                  <span>{item.step}</span>
+                  <strong>{item.title}</strong>
+                  <p>{item.text}</p>
+                </article>
+              ))}
+            </div>
+          </section>
+
+          <section className="case-study-block opspm-evidence-section">
+            <div className="case-study-heading-row">
+              <div>
+                <p className="case-study-kicker">05 / SPONSORSHIP EVIDENCE</p>
+                <h3>Show confidence levels, not a false promise</h3>
+              </div>
+              <p>Historical H-1B approvals and source signals are leads to investigate—not guarantees for a specific opening.</p>
+            </div>
+            <div className="opspm-evidence-grid">
+              {caseStudy.evidenceLevels.map((item) => (
+                <article key={item.level}>
+                  <span>{item.level}</span>
+                  <strong>{item.label}</strong>
+                  <p>{item.note}</p>
+                </article>
+              ))}
+            </div>
+          </section>
+
+          <section className="case-study-block">
+            <div className="case-study-heading-row">
+              <div>
+                <p className="case-study-kicker">06 / TRAINING THE AI AGENT</p>
+                <h3>Train the behavior, then test the system</h3>
+              </div>
+              <p>{caseStudy.agentTraining.intro}</p>
+            </div>
+            <div className="opspm-agent-loop">
+              {caseStudy.agentTraining.stages.map((item) => (
+                <article key={item.number}>
+                  <span>{item.number}</span>
+                  <strong>{item.title}</strong>
+                  <p>{item.text}</p>
+                </article>
+              ))}
+            </div>
+          </section>
+
+          <section className="case-study-block opspm-guardrail-section">
+            <div>
+              <p className="case-study-kicker">07 / HUMAN-IN-THE-LOOP GUARDRAILS</p>
+              <h3>Automation stops before authority begins</h3>
+            </div>
+            <ul>
+              {caseStudy.guardrails.map((item) => <li key={item}>{item}</li>)}
+            </ul>
+          </section>
+
+          <section className="case-study-outcome">
+            <p className="case-study-kicker">OUTCOME</p>
+            <h3>A reusable Ops/PM job-search operating system</h3>
+            <p>{caseStudy.outcome}</p>
+            <div className="case-study-outcome-actions">
+              <a href={caseStudy.projectUrl} target="_blank" rel="noreferrer">VIEW ON GITHUB ↗</a>
+              <button type="button" onClick={onClose}>BACK TO PROJECTS ↑</button>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 function CaseStudy({ project, onClose }) {
+  if (project.caseStudy.type === "opspm") {
+    return <OpsPmCaseStudy project={project} onClose={onClose} />;
+  }
+
   if (project.caseStudy.type === "lifecycle") {
     return <LifecycleCaseStudy project={project} onClose={onClose} />;
   }
