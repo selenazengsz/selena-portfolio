@@ -7,27 +7,27 @@ const asset = (path) => `${import.meta.env.BASE_URL}${path.replace(/^\/+/, "")}`
 export const content = {
   hero: {
     brand: "Selena Zeng",
-    stamp: "CONSUMER STRATEGY × PRODUCT × GROWTH",
+    stamp: "USER STRATEGY × PRODUCT × GROWTH",
     name: "Selena Zeng",
-    introLine1: "I translate consumer behavior into growth and product decisions",
-    introLine2: "by combining consumer insight, product thinking, lifecycle strategy, and analytics.",
+    introLine1: "I translate user behavior into growth and product decisions",
+    introLine2: "by combining user insight, product thinking, lifecycle strategy, and analytics.",
     location: "Los Angeles / Beijing",
     availability: "Graduating December 2026 · Open to full-time roles",
   },
 
   marquee: [
-    "Consumer Strategy",
+    "User Strategy",
     "Product Thinking",
     "Lifecycle Growth",
     "Analytics",
-    "Consumer Insight",
+    "User Insight",
     "Growth Strategy",
   ],
 
   workSection: {
     eyebrow: "HOME / SELECTED WORK",
-    title: "Work across product, growth, and consumer strategy",
-    description: "Selected projects spanning lifecycle growth, product thinking, analytics, and consumer insight.",
+    title: "Work across product, growth, and user strategy",
+    description: "Selected projects spanning lifecycle growth, product thinking, analytics, and user insight.",
   },
 
   projects: [
@@ -498,7 +498,7 @@ export const content = {
   contact: {
     titleLine1: "Let's",
     titleLine2: "connect",
-    lead: "I am seeking full-time opportunities in consumer strategy, product strategy, growth, or analytics.",
+    lead: "I am seeking full-time opportunities in user strategy, product strategy, growth, or analytics.",
     linkedinHref: "https://www.linkedin.com/in/selenazeng912",
     linkedinText: "View my profile",
     emailHref: "mailto:yue.zeng@outlook.com",

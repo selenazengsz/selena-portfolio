@@ -16,7 +16,7 @@ export default function AboutSection() {
       <div className="shell">
         <Reveal className="sec-head about-sec-head">
           <span className="idx">02 — About</span>
-          <p>Economics, data science, consumer insight, and hands-on growth experience.</p>
+          <p>Economics, data science, user insight, and hands-on growth experience.</p>
         </Reveal>
 
         <div className="about-grid">
