@@ -463,7 +463,7 @@ export const content = {
     {
       year: "2027",
       role: "Dine-in Creator Operations Intern",
-      period: "Incoming · Starts February 2027",
+      period: "Incoming",
       company: "TikTok Local Services · Los Angeles",
       meta: "TikTok Local Services · Los Angeles",
       description: "Incoming",
@@ -474,7 +474,7 @@ export const content = {
     {
       year: "2026",
       role: "User Growth Operations Intern",
-      period: "Internship · Summer 2026",
+      period: "Summer",
       company: "Luckin Coffee · Beijing",
       meta: "Luckin Coffee · Beijing, China",
       description: "Execute CRM and lifecycle campaigns, conduct customer research with 100+ users, manage feedback operations, and coordinate weekly launches across marketing, product, design, and operations.",
