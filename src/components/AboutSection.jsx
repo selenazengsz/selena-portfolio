@@ -76,7 +76,7 @@ export default function AboutSection() {
                       <span className="tl-co"> · {item.company}</span>
                     </h4>
                     <span className="tl-period">{item.period}</span>
-                    <p className="tl-desc">{item.desc}</p>
+                    {item.desc ? <p className="tl-desc">{item.desc}</p> : null}
                     <div className="tl-tags">
                       {item.tags.map((tag) => (
                         <span key={tag}>{tag}</span>
