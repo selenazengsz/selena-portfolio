@@ -449,7 +449,7 @@ export const content = {
     name: "Selena Zeng",
     profileName: "Selena Zeng",
     profileImage: asset("/about/profile.jpg"),
-    profileAlt: "Studio portrait of Selena Zeng against a deep blue background",
+    profileAlt: "Portrait of Selena Zeng seated outdoors in an autumn forest",
     postcardImage: asset("/about/stamp-paper.jpg"),
     greeting: "Hello, I'm Selena.",
     body: "I’m currently studying Economics and Data Science at the University of Southern California and expect to graduate in December 2026. Before USC, I studied Finance and Accounting at the University of Pittsburgh from 2022 to 2024. I’m curious about why users do what they do, how they lose interest, and how better segmentation, communication, and experiences turn casual users into loyal ones. My background combines user growth, business analytics, and consulting.",
@@ -460,6 +460,17 @@ export const content = {
   skills: ["User Growth", "CRM & Lifecycle Marketing", "Customer Research", "SQL / Power BI", "Data Storytelling"],
 
   experiences: [
+    {
+      year: "2027",
+      role: "Dine-in Creator Partnership Intern",
+      period: "Incoming · Starts February 2027",
+      company: "TikTok Local Services · Los Angeles",
+      meta: "TikTok Local Services · Los Angeles",
+      description: "Incoming role with TikTok Local Services, beginning in February 2027.",
+      desc: "Incoming role with TikTok Local Services, beginning in February 2027.",
+      tags: ["Creator Partnerships", "Local Services"],
+      visual: "TT",
+    },
     {
       year: "2026",
       role: "User Growth Operations Intern",
