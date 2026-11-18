@@ -468,7 +468,7 @@ export const content = {
       meta: "TikTok Local Services · Los Angeles",
       description: "Incoming role with TikTok Local Services, beginning in February 2027.",
       desc: "Incoming role with TikTok Local Services, beginning in February 2027.",
-      tags: ["Creator Partnerships", "Local Services"],
+      tags: ["Creator Partnerships", "TikTok GO"],
       visual: "TT",
     },
     {
